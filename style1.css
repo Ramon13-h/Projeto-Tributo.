@@ -1,0 +1,45 @@
+.george {
+    height: 30%;
+    float: none;
+    padding: 1% 25% 5% 25%;
+}
+
+.beatles
+{
+    width: 100%;
+    float: left;
+    background: url("img/beatles.png") center center/ no-repeat;
+    font-size: 0;
+    margin-bottom: 10%;
+}
+
+.john {
+    max-height: 30%;
+    height: 28%;
+    float:
+    none;
+    padding: 1% 25% 5% 25%;
+    margin-bottom:5%;
+}
+
+.paul {
+    height: 25%;
+    margin-bottom: 5%;
+}
+.ringo{
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+.video {
+    height: 220px;
+    width :100%;
+}
+.btn_menu {
+    width: 37px;
+    height: 37px;
+    margin: 8px 10px 0 0;
+    float: right;
+    border-radius: 36px;
+    background-color:
+    rgba(0,0,0,0.7);

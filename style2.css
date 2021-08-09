@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    border: none;
+    font-family: serif;
+}
+body {
+    background: linear-gradient(snow,skyblue,cyan,blue);
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+
+}
+
+/*cabeçalho*/
+.cabecalho {
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    padding: 6% 6%;
+    background-color:
+    #424242;
+    margin-bottom: 5%;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background:
+    url(img/logo_beatles.png) center center/70px no-repeat;
+    font-size: 0;
+}
+
+
+/*menus*/ 
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+}
+
+.btn_menu {
+
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 8px 10px 8px 0;
+    float: right;
+    border-radius: 36px;
+    background-color:
+    rgba(255,255,255,0.7);
+}
+
+.btn_close {
+    font-size: 1.5em;
+    color: white;
+    float: right;
+    cursor:
+    pointer;
+    margin: 2% 3% 0 0;
+}
+
+.menu ul {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 3%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color:
+    #fff;
+    padding: 1.5% 3%;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    border: 2px
+    solid lime;
+}
+
+.menu li a:active {
+    border: red solid 2px;
+    text-decoration: underline;
+}
+
+/*texto*/ p {
+    text-indent: 10px;
+}
+
+.texto {
+    width: 100%;
+    background-image: red;
+    
+    border-radius: 7px;
+}
+
+.caixa {
+    text-align: center;
+    width: 50%;
+   
+    padding: 6% 6%;
+    background-color: #fff;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.caixa h2 {
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+
+.caixa p {
+    line-height: 1.5em;
+    margin-bottom:
+    5%;
+}
+
+/* lista*/ .caixa ul {
+    line-height: 2em;
+    margin-bottom: 5%;
+}
+
+.caixa iframe
+{
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+
+/*rodapé*/ footer {
+    text-align: center;
+    width: 50%;
+   
+    padding: 6% 6%;
+    background-color: #4A4A4A;
+}
+
+footer p
+{
+    font-size: 0.7;
+}
+
+footer a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+/*fotos*/ 
+.george {
+    height: 30%;
+    float: none;
+    padding: 1% 25% 5% 25%;
+}
+
+.beatles
+{
+    width: 100%;
+    float: left;
+    background: url("img/beatles.png") center center/ no-repeat;
+    font-size: 0;
+    margin-bottom: 10%;
+}
+
+.john {
+    max-height: 30%;
+    width: 300px;
+    height: 250px;
+    float:
+    none;
+   
+    margin-bottom:5%;
+}
+
+.paul {
+    height: 25%;
+    margin-bottom: 5%;
+}
+.ringo{
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+.video {
+    height: 220px;
+    width :100%;
+}
